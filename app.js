@@ -10,7 +10,7 @@ const cors = require("cors");
 const app = express();
 app.use(
   cors({
-    origin: ["https://career-app.onrender.com", "http://localhost:3000"],
+    origin: ["https://resume-maker-7h7e.onrender.com", "http://localhost:3000"],
     credentials: true,
   })
 );
